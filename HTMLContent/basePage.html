@@ -6,61 +6,135 @@
   </head>
   <body>
     <header>
-      <h1>PC Store - Building machines</h1>
-      <ul>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#combos">Combos</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#aboutus">About us</a></li>
-      </ul>
+      <div class="flexContainerSettings menuSettings">
+        <ul class="listItemsSettings">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#combos">COMBOS</a></li>
+          <li><a href="#aboutUs">About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div>
+          <h1>PC Store</h1>
+          <h2>- Building machines</h2>
+        </div>
+      </div>
     </header>
-    <div>
-      <div>
-        <h2>Don't keep your future waiting...</h2>
-        <p>Start building your setup and go directly to your objectives!</p>
-        <a href="">Let's start!</a>
+
+    <!-- Products && combos -->
+    <div class="flexContainerSettings presentationSettings" id="products">
+      <div class="presentationContentSettings">
+        <h2>Don't let your dreams waiting...</h2>
+        <p>Select your favorite tech and go directly to the match!</p>
+        <a href="">START</a>
       </div>
       <div>
-        <div><img src="../images/productsImage" alt="productsImage" /></div>
+        <div>
+          <img
+            class="productPhotoSettings"
+            src="../images/productImage.jpg"
+            alt="productsImage"
+          />
+        </div>
       </div>
     </div>
-    <div>
+    <div class="flexContainerSettings comboSettings" id="combos">
       <div>
-        <div><img src="../images/combosImage" alt="combosImage" /></div>
+        <div>
+          <img
+            class="comboPhotoSettings"
+            src="../images/comboImage.png"
+            alt="combosImage"
+          />
+        </div>
       </div>
-      <div>
-        <h2>Combos</h2>
+      <div class="comboContentSettings">
+        <h2>COMBOS</h2>
         <p>
-          Or you can buy extra power to face your journeys
+          You can take extra power to face your journeys.
           <br />
           In this case, the combos are the best choice for you.
         </p>
       </div>
     </div>
-    <div>
+
+    <!-- About us -->
+    <div class="flexContainerSettings" id="aboutUs">
       <div>
-        <h2>Contact</h2>
+        <h2>About us</h2>
       </div>
-      <div>
-        <div>
-          <div><img src="whatsappIcon" alt="whatsappIcon" /></div>
-          <p>Whatsapp</p>
-          <a href="#">Send a message...</a>
+      <div class="aboutUsItemsListSettings">
+        <div class="aboutUsItemSettings">
+          <h3>High-tech for everyone</h3>
+          <p>
+            "This is the power hall. Everything you need for your battle will be
+            available to be grabbed"
+          </p>
+          <p>- Digital Realms General</p>
         </div>
-        <div>
-          <div><img src="../images/DiscordIcon" alt="DiscordIcon" /></div>
-          <p>Discord</p>
-          <a href="#">Join our Discord server!</a>
+        <div class="aboutUsItemSettings">
+          <h3>BONUS seasons</h3>
+          <p>
+            Select featured items and we will make magic to your final value
+          </p>
         </div>
+        <div class="aboutUsItemSettings">
+          <h3>Goals</h3>
+          <ul>
+            <li>⋆ Increase the high-performance technologies availability</li>
+            <li>⋆ Become international selling the newest electronics</li>
+            <li>⋆ Be the 1st option of confidence and economy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="externalContainerSettings" id="contact">
+      <div class="flexContainerSettings socialMediaSettings">
         <div>
-          <div><img src="../images/InstagramIcon" alt="InstagramIcon" /></div>
-          <p>Instagram</p>
-          <a href="#">Follow us on Instagram.</a>
+          <h2>Contact</h2>
+        </div>
+        <div class="socialMediaContentSettings">
+          <div class="socialMediaItemSettings">
+            <div>
+              <img
+                class="iconsSettings"
+                src="../images/WhatsappIcon.png"
+                alt="whatsappIcon"
+              />
+            </div>
+            <p>Official Whatsapp</p>
+            <a href="#">Send a message</a>
+          </div>
+          <div class="socialMediaItemSettings">
+            <div>
+              <img
+                class="iconsSettings"
+                src="../images/DiscordIcon.png"
+                alt="DiscordIcon"
+              />
+            </div>
+            <p>PCStore#999</p>
+            <a href="#">Join server</a>
+          </div>
+          <div class="socialMediaItemSettings">
+            <div>
+              <img
+                class="iconsSettings"
+                src="../images/InstagramIcon.png"
+                alt="InstagramIcon"
+              />
+            </div>
+            <p>@PCStoreTech</p>
+            <a href="#">Follow</a>
+          </div>
         </div>
       </div>
     </div>
     <footer>
-      <p>&copy; BERCOWOR - Bernardino Coding Works - 2022</p>
+      <div class="flexContainerSettings footerSettings">
+        <p>&copy; BERCOWOR - Bernardino Coding Works - 2022</p>
+      </div>
     </footer>
   </body>
 </html>

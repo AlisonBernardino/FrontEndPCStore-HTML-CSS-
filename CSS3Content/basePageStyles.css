@@ -1,0 +1,264 @@
+* {
+  font-family: "Calibri";
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 110px;
+  background-color: rgb(0, 51, 53);
+  color: rgb(255, 255, 255);
+}
+
+header .listItemsSettings {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 270px;
+  display: flex;
+}
+
+.listItemsSettings li a {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+header .menuSettings {
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.flexContainerSettings {
+  min-width: 310px;
+  padding: 9px 14px;
+  width: 100%;
+  max-width: 990px;
+  margin: auto;
+  display: flex;
+}
+
+.productPhotoSettings {
+  width: 700px;
+  height: 550px;
+}
+
+.comboPhotoSettings {
+  width: 600px;
+  height: 500px;
+}
+
+.iconsSettings {
+  width: 30px;
+  height: 30px;
+}
+
+.presentationSettings,
+.comboSettings {
+  justify-content: space-between;
+  align-items: center;
+  height: 105vh;
+}
+
+.presentationSettings,
+.comboSettings {
+  font-size: 45px;
+  display: flex;
+  margin-bottom: 18px;
+}
+
+h2 {
+  color: rgb(0, 150, 191);
+}
+
+p {
+  color: rgb(0, 0, 0);
+  width: 92%;
+  margin-bottom: 12px;
+}
+
+.presentationSettings,
+.comboSettings p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.presentationSettings
+  .presentationContentSettings
+  .comboSettings
+  .comboContentSettings {
+  width: 100%;
+  min-height: 210px;
+}
+
+.presentationContentSettings .comboContentSettings h1 {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: rgb(0, 0, 0);
+}
+
+.presentationContentSettings a {
+  width: 100px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  background-color: rgb(0, 150, 191);
+  color: rgb(255, 255, 255);
+  border-radius: 35px;
+  height: 45px;
+  line-height: 42px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  text-decoration: none;
+}
+
+div img {
+  width: 100%;
+  display: block;
+}
+
+.comboSettings img {
+  min-width: 310px;
+}
+
+.externalContainerSettings {
+  width: 100%;
+  background-color: rgb(0, 51, 53);
+}
+
+.socialMediaSettings {
+  padding-top: 25px;
+  padding-bottom: 35px;
+  flex-direction: column;
+}
+
+.socialMediaSettings h2 {
+  margin-bottom: 12px;
+  font-size: 27px;
+}
+
+.socialMediaContentSettings {
+  justify-content: space-around;
+  display: flex;
+}
+
+.socialMediaContentSettings,
+.socialMediaItemSettings {
+  text-align: center;
+}
+
+.socialMediaItemSettings a {
+  font-weight: 650;
+  font-size: 16px;
+  border-radius: 25px;
+  height: 45px;
+  width: 215px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 18px;
+  padding: 4px 9px;
+  text-decoration: none;
+  background-color: rgb(0, 150, 191);
+  color: rgb(255, 255, 255);
+}
+
+.socialMediaItemSettings p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.socialMediaItemSettings img {
+  margin: auto;
+}
+
+#aboutUs {
+  min-height: 30vh;
+  flex-direction: column;
+}
+
+.aboutUsItemsListSettings {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.aboutUsItemSettings {
+  margin-right: 15px;
+  padding: 9px;
+  border: 1px solid rgb(0, 0, 0);
+  flex: 1;
+}
+
+.aboutUsItemSettings h3 {
+  text-align: center;
+  display: flex;
+  font-size: 17px;
+  flex-direction: column;
+}
+
+.aboutUsItemSettings h3::after {
+  width: 100%;
+  height: 3px;
+  margin-bottom: 9px;
+  background-color: rgb(0, 150, 191);
+  content: "";
+}
+
+footer {
+  height: 40px;
+  background-color: rgb(1, 97, 124);
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+}
+
+.footerSettings {
+  justify-content: space-between;
+}
+
+/* Mobile responsivity */
+@media (max-width: 992px) {
+  .flexContainerSettings {
+    flex-direction: column;
+  }
+  .presentationSettings,
+  .comboSettings,
+  .presentationContentSettings,
+  .comboContentSettings {
+    width: 100%;
+  }
+  .productPhotoSettings,
+  .comboPhotoSettings {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .aboutUsItemsListSettings {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .aboutUsItemsListSettings .aboutUsItemSettings {
+    margin: auto;
+    width: 100%;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+}
